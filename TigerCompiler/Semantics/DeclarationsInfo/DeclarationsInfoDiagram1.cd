@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TigerCompiler.Semantics.ItemInfo" Collapsed="true">
+    <Position X="7.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Semantics\DeclarationsInfo\ItemInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Semantics.VarFuncInfo" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Semantics\DeclarationsInfo\VarFuncDeclarationsInfo\VarFuncInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Semantics.TypeInfo" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Semantics\DeclarationsInfo\TypeDeclarationsInfo\TypeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Semantics.VarInfo" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Semantics\DeclarationsInfo\VarFuncDeclarationsInfo\VarInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Semantics.FuncInfo" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Semantics\DeclarationsInfo\VarFuncDeclarationsInfo\FuncInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Semantics.ArrayTipeInfo" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Semantics\DeclarationsInfo\TypeDeclarationsInfo\ArrayTipeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Semantics.BuiltInTypeInfo" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Semantics\DeclarationsInfo\TypeDeclarationsInfo\BuiltInTypeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TigerCompiler.Semantics.RecordTypeInfo" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Semantics\DeclarationsInfo\TypeDeclarationsInfo\RecordTypeInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
