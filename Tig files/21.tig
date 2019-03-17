@@ -1,0 +1,10 @@
+let
+	function f1(n : int) : int = if n <= 0 then 1 else n * f2(n - 1)
+	var x : int := 10
+	function f2(n : int) : int = if n <= 0 then 1 else n * f1(n - 1)
+	type Person = { Name : string, Pet : Animal }
+	function g() = printi(f1(x))
+	type Animal = { Name : string, Owner : Person }
+in
+	g()
+end

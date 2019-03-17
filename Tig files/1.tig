@@ -1,0 +1,7 @@
+let 
+	type strin = array of int
+	var a:= strin[6] of 0
+	var b:string:="hola"
+	var c:strin:=a
+	var d:string:=b
+in b:="asd"; let var h:=9 type o = {m1:int, m2:string} var t:= let var p:=8 in o{m1=h, m2=b} end in t;h+8 end end

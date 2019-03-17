@@ -1,0 +1,7 @@
+let
+	var a:= 5
+in 5 end
++
+let
+	var b:= 6
+in a end

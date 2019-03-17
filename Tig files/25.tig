@@ -1,0 +1,26 @@
+/*Este programa imprime 3*/
+
+let
+type arrayInt = array of int
+function SegundoMayor(numeros:arrayInt, long:int):int = 
+if long <= 0 then -1 else
+	let 
+		var max := numeros[0]
+		var sMax  := numeros[0]
+	in
+		for i := 0 to long-1 do if max < numeros[i] then 
+		( sMax := max;
+		  max := numeros[i]
+		);
+		sMax
+	end
+var l := 4
+var n := arrayInt[l] of 0
+in
+n[0] := 2;
+n[1] := 1;
+n[2] := 3;
+n[3] := 4;
+printi(SegundoMayor(n,l));
+getchar()
+end

@@ -1,0 +1,7 @@
+let
+	var a : string := nil
+	type intArray = array of int
+	type intArrayAlias = intArray
+	var b : intArray := nil
+	var c : intArrayAlias := nil
+in /* ... */ end

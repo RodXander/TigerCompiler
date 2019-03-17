@@ -1,0 +1,29 @@
+/*Este programa pide al usuario #s y va creando una LinkedList, 
+	luego la imprime*/
+
+let
+	type LinkList = { node : string, next : LinkList }
+	var list := LinkList { node = "Begin", next = nil }
+	var head := list
+	var it : LinkList := nil
+	var n:= ""
+	
+	function readchar() : string = (getline())
+in
+	print("-1 to finish.\n");
+	n:= readchar();
+	while n <> "" do
+	(
+		list.next:= LinkList { node = n, next = nil };
+		list:= list.next;
+		n:= readchar()
+	);
+	print("--------------------\n");
+	it:= head.next;
+	while it <> nil do
+	(
+		print(it.node);
+		print("\n");
+		it:= it.next
+	);getchar() 
+end

@@ -1,0 +1,57 @@
+let
+	type integer = int
+	type Entero = integer
+	type arr = array of int
+	type arr2 = array of arr
+	type arr3 = array of string
+	type arr4 = array of record2
+	type record2 = { m1:record1, m2:arr2}
+	type record1 = { m1:int, m2:string }
+	var varArr:arr:= arr[6] of 4
+	var varArr2:arr2:= arr2[3] of varArr
+	var varArr3:arr3:= arr3[5] of nil
+	var a:integer:=5
+	var c:Entero:=5
+	var varRec1Null:record1:= nil
+	var varRec1:record1:= record1 { m1 = 55, m2 = "Saez" }
+	var varRec12:record1:= record1 { m1 = 155, m2 = "OASL" }
+	var varRec2:record2:= record2 { m1 = record1 { m1 = 44, m2 = "Lombira" }, m2 = varArr2 }
+	var varArr4:arr4:= arr4[6] of record2 { m1 = varRec1, m2 = arr2[6] of arr[6] of 9 }
+	function g():int=(printline("Yo soy Osvaldo");a+c)
+in 
+	if varRec1Null = nil then (varRec1Null.m1;printline("Yes")) else printline("No");
+	printiline(varArr[0]);
+	varArr[0] := 8;
+	printiline(varArr[0]);
+	printline(varRec1.m2);
+	varRec1 := varRec12;
+	printline(varRec1.m2);
+	varRec1.m2 := "Sogaaaaa";
+	printline(varRec1.m2);
+	printline(varArr4[2].m1.m2);
+	varArr4[2].m1.m2 := "Sota";
+	printline(varArr4[2].m1.m2);
+	printiline(varArr4[1].m2[3][4]);
+	varArr4[1].m2[3][4] := 18;
+	printiline(varArr4[1].m2[3][4]);
+	printline(varRec2.m1.m2);
+	printiline(varRec2.m2[1][5]);
+	printiline(varRec1.m1);
+	printline(varRec1.m2);
+	printline(varArr3[0]);
+	printiline(varArr[1]);
+	printiline(varArr[4]);
+	printiline(varArr2[1][1]);
+	printiline(g());
+	printiline(a +
+	let
+		function h(i:int, x:int):string=(g();f();substring("Solitarios", i, x))
+		function f()=(printline("somos"))
+		var a:=10 + c
+		var b:int:=a + 8
+	in 
+		printline(h(2,3));
+		a + b
+	end);
+	getline() 
+end

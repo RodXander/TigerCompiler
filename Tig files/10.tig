@@ -1,0 +1,13 @@
+let
+	type ComplexArray = array of SimpleArray
+	type SimpleArray = array of int
+	var val := 8
+	var x := ComplexArray[4] of SimpleArray[5] of (val := val + 1 ; val)
+in
+	for i := 0 to 3 do
+		let
+			var temp := x[i]
+		in
+			for j := 0 to 4 do (printi(temp[j]) ; printline(""))
+		end
+end

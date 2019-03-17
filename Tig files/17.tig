@@ -1,0 +1,15 @@
+let
+	var age : int := 22
+in
+	let
+		type Integer = int
+		type Entero = Integer
+		var edad : Entero := age
+	in
+		3;
+		printline("call");
+		"string";
+		nil;
+		edad
+	end
+end

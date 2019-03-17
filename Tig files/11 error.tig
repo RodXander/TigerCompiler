@@ -1,0 +1,4 @@
+let
+	type Person = { Name : string, Age : int }
+	var john : Person := Person { Age = 22, Name = "John" }
+in /* ... */ end

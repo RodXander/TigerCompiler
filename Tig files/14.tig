@@ -1,0 +1,7 @@
+let
+	var x : int := 1
+	var c : int := 10
+in
+	x := (10 ; while c > 0 do (print("O") ; break) ; x - 1) ;
+	print("K")
+end

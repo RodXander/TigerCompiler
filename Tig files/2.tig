@@ -1,0 +1,5 @@
+let
+	/*var a:=nil*/
+	/*var b:string:=5*/
+	var c:int:=5
+in 8*9 end

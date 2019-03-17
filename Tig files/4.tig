@@ -1,0 +1,4 @@
+let var a:=5
+in a + let
+		var b :=6
+		in b end end

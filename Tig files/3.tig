@@ -1,0 +1,8 @@
+let 
+	function f():string=(h();"solo")
+	function h():int= 9
+	type g = array of int
+	type a = {s:g, d:string}
+	function g():a=a{s=g[4*8] of 5 /*Tipo G*/, d="solo"}
+	var a:g:= g[5] of 0
+in a;5;g(); let var t:= 6 type i = array of string var q:i:=i[9] of "" in 8 + t;q;8 end;5 end

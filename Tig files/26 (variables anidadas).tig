@@ -1,0 +1,13 @@
+let
+	var a:=5
+	var c:int:=5
+in 
+	printiline(a +
+	let
+		var a:=10 + c
+		var b:int:=a + 8
+	in 
+		a + b
+	end);
+	getline() 
+end

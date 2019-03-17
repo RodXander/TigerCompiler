@@ -1,0 +1,16 @@
+/*Este programa imprime 22*/
+let type r1 = {hd: r2, tl: c}
+	type r2= {hd: int, tl: x}
+	type s = array of r1
+	type x = array of y
+	type y = array of int
+	type a = b
+	type b = c
+	type c = s
+	var r:r1 := r1{hd = r2{hd=2, tl= x[2] of y[2] of 2}, tl = s[2] of nil }
+	var s:r1 := r1{hd = nil, tl = s[2] of nil }
+in	if r.hd = nil then print("nil");
+	printi(r.hd.hd); /*2*/
+	printi(r.hd.tl[0][0]); /*2*/
+	print("\n")
+end

@@ -1,0 +1,15 @@
+/*Este programa pide al usuario 4 strings y luego los imprime*/
+ 
+let
+	type R = { s : string }
+	type A = array of R
+	type Q = { a : A }
+	var q : Q := nil
+	var n:= 4
+in
+	q:= Q { a = A[n] of nil };
+	for j:= 0 to n - 1 do q.a[j]:= R{ s = getline() };
+	printline("----------");
+	for j:= 0 to n - 1 do print(concat(q.a[j].s, "\n"));
+	getchar()
+end

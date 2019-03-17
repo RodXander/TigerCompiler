@@ -1,0 +1,6 @@
+let
+	type Entero = int
+	var edad : Entero := 22
+in
+	edad
+end

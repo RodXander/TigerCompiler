@@ -1,0 +1,8 @@
+let
+	function f1(n:int) : int = 
+		if n <= 0 then 1 else n * f2(n -1)
+	function f2(n:int) : int = 
+		if n <= 0 then 1 else n * f1(n -1)
+in
+	printi(f1(10))
+end

@@ -1,0 +1,5 @@
+let 
+	type MyArray1 = array of MyArray2 
+	type MyArray2 = array of MyArray1Alias 
+	type MyArray1Alias = MyArray1 
+in /* ... */ end

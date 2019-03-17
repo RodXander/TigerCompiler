@@ -1,0 +1,13 @@
+let /* A */
+	function f1(n : int) : int = if n <= 0 then 1 else n * f2(n-1) /* B */
+	function writei(i : int) = printi(i) /* C */
+	function f2(n : int) : int = if n <= 0 then 1 else n * f1(n-1) /* D */
+	var x : int := 10 /* E */
+	var y : int := 0 /* F */
+	function g() = writei(f1(x)) /* G */
+	type Person = { Name : string, Pet : Animal } /* H */
+	type Animal = { Name : string, Owner : Individual } /* I */
+	type Individual = Person /* J */
+in /* K */
+	g() /* L */
+end /* M */

@@ -1,0 +1,4 @@
+let
+	function f()=h("solo")
+	function h(i:int)=5
+in end
